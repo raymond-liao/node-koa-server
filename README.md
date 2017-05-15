@@ -4,7 +4,6 @@ Chinese can go [here](http://www.jianshu.com/p/4b03cbdb28d2) for more help.
 
 # Environment:
 ```
-Computer: iMAC, macOS 10.12.4
 IDE: WebStorm 2017.1.2
 Node.js: v7.6.0 +
 ```
