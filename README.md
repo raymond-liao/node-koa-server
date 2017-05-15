@@ -3,9 +3,11 @@ Demo of node.js server, code with Koa.js, nunjucks.
 Chinese can go [here](http://www.jianshu.com/p/4b03cbdb28d2) for more help.
 
 # Environment:
+```
 Computer: iMAC, macOS 10.12.4
 IDE: WebStorm 2017.1.2
 Node.js: v7.6.0 +
+```
 > Suggestion tool [n](https://github.com/tj/n) for multiple node version control.
 
 # Usage:
@@ -29,4 +31,4 @@ $ node app.js
 
 # QA:
 1. Why there is too many red wavy lines for my codes in WebStorm?
-Please got to "Preferences/Languages & Frameworks/Javascript", then select ECMAScript6 for your JavaScript language version.
+> Please got to "Preferences/Languages & Frameworks/Javascript", then select ECMAScript6 for your JavaScript language version.
