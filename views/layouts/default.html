@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <!-- meta tags start -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- meta tags end -->
+    <!-- Css -->
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" media="all"/>
+    {% block header %}{% endblock %}
+</head>
+<body>
+{% block body %}{% endblock %}
+{% block scripts %}{% endblock %}
+</body>
+</html>
