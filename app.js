@@ -5,7 +5,6 @@ const bodyparser = require('koa-bodyparser')();
 const logger = require('koa-logger');
 const onerror = require('koa-onerror');
 const nunjucks = require('nunjucks');
-const common = require('common');
 const index = require('./routes/index');
 
 const app = new Koa();
