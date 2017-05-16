@@ -30,4 +30,4 @@ $ node app.js
 
 # QA:
 1. Why there is too many red wavy lines for my codes in WebStorm?
-> Please got to "Preferences/Languages & Frameworks/Javascript", then select ECMAScript6 for your JavaScript language version.
+> Please got to "Preferences/Languages & Frameworks/Javascript", then select ECMAScript6 as your JavaScript language version.
