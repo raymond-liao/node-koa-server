@@ -1,0 +1,8 @@
+{
+  "production": false,
+  "port": "3000",
+  "mongodb": {
+    "url": "mongodb://127.0.0.1:27017/MGSessionDB"
+  },
+  "appKey": "wqefsdvrfbtyeeqwsddcrfewgrew54g54gg45242fdsfgvbrtsh5452q41tffsaaasd3223rdq"
+}

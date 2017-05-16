@@ -3,5 +3,4 @@
 node_modules
 helpers/
 middlewares/
-models/
 tests/
