@@ -1,4 +1,4 @@
-const Model = require('../models/index').User;
+const Model = require('../models/mongo/index');
 
 const getUser = (username, options) => {
     let query = {username: username};
