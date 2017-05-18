@@ -1,6 +1,6 @@
 # node-koa-server
-Demo of node.js server, code with Koa.js, nunjucks.
-Chinese can go [here](http://www.jianshu.com/p/4b03cbdb28d2) for more help.
+Demo of node.js server, code with Koa.js, nunjucks, request.js, mongo, mysql, angular.
+>The project still in developing, any problem please issue here.
 
 # Environment:
 ```
