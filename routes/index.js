@@ -18,5 +18,9 @@ fs
     });
 
 router.get('/', home.homeIndex);
+router.get('/about', home.about);
+router.get('/post', home.post);
+router.get('/get', home.get);
+// router.get('/test', home.test);
 
 module.exports = router;

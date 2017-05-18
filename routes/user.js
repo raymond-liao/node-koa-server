@@ -8,11 +8,11 @@ const router = koaRouter({
     prefix: '/user'
 });
 
-router.get('/', user.userIndex);
-router.get('/login', user.userIndex);
+router.get('/login', user.login);
 router.post('/login', user.login);
 router.get('/logout', user.logout);
 router.post('/register', user.createUser);
 router.put('/update', user.updateUser);
+router.get('/', user.userIndex);
 
 module.exports = router;

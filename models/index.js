@@ -12,6 +12,6 @@ mongoose.connect(mongodbUrl, function (err) {
 
 const User = require('./user');
 
-export default {
-  User
+module.exports = {
+    User
 };

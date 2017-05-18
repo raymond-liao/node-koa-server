@@ -1,6 +1,6 @@
-import Model from '../models/index';
+const Model = require('../models/index').User;
 
-const getUsers = (username, options) => {
+const getUser = (username, options) => {
     let query = {username: username};
     Object.keys(options).forEach((key) => {
         query[key] = options[key];
@@ -36,7 +36,7 @@ const update = (user) => {
 };
 
 module.exports = {
-    getUsers,
+    getUser,
     create,
     update
 };

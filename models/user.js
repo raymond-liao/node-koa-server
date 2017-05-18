@@ -19,9 +19,12 @@ const UserSchema = new Schema({
     google: {},
     linkedin: {}
 }, {
-    timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' }
+    timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
+    versionKey: false
 });
 
 UserSchema.index({content: 1});
 
-export default mongoose.model('user', UserSchema);
+module.exports = {
+    User: mongoose.model('user', UserSchema)
+};

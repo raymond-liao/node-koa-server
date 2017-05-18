@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="mainApp">
 <head>
     <title>{% block title %}{% endblock %}</title>
     <!-- meta tags start -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <!-- meta tags end -->
     <!-- Css -->
-    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/stylesheets/style.css" rel="stylesheet"/>
+    <link href="/javascripts/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="/javascripts/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/javascripts/lib/js-cookie/src/js.cookie.js"></script>
+    <script src="/javascripts/lib/fastclick/lib/fastclick.js"></script>
+    <script src="/javascripts/lib/angular/angular.min.js"></script>
+    <script src="/javascripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src='/javascripts/controller/main-controller.js' type="text/javascript"></script>
     {% block header %}{% endblock %}
+    <script>
+        const csrf = "{{csrf}}";
+    </script>
 </head>
-<body>
+<body ng-controller="mainController">
 {% block body %}{% endblock %}
 {% block scripts %}{% endblock %}
 </body>

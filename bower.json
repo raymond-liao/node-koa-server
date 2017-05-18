@@ -1,0 +1,23 @@
+{
+  "name": "node-koa-server",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/javascripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.x",
+    "angular": "1.6.x",
+    "bootstrap": "~3.3.7",
+    "fastclick": "~1.0.6",
+    "js-cookie": "~2.1.4"
+  }
+}

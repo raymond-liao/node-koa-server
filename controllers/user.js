@@ -10,14 +10,23 @@ const userIndex = async (ctx, next) => {
 };
 
 const login = async (ctx, next) => {
-
+    const user = await User.getUser('admin', {});
+    ctx.body = {
+        data: user,
+        success: true
+    };
 };
 
 const createUser = async (ctx, next) => {
     const requestData = ctx.request.body;
     const user = {
         provider: 'local',
-        username: requestData.username
+        name: 'test01',
+        username: 'admin',
+        password: '123456',
+        email: 'test@126.com',
+        auth_token: '324365gdrgdf345gdrgthrthtr3213',
+        avatar: ''
     };
     const newUser = await User.create(user);
     ctx.body = {
